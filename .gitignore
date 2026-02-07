@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+imdb_agent/
+venv/
+.env
+
+# OS junk
+.DS_Store
+
+# Hugging Face cache
+.cache/
+# Training-only artifacts (do not commit)
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+training_args.bin
+
