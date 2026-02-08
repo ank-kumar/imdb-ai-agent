@@ -1,4 +1,4 @@
- with unforgettable performances.")
+
 Notes
 Model runs fully locally
 
@@ -113,18 +113,4 @@ python
 Copy code
 from imdb_agent.agent import MovieAgent
 MovieAgent().decide("Your review here")
-
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
 
