@@ -6,59 +6,7 @@ No API keys required
 
 Tested on macOS (Apple Silicon)
 
-shell
-Copy code
-
-### Save & exit
-ESC
-:wq
-
-yaml
-Copy code
-
 ---
-
-## 3️⃣ Git add mistake (easy fix)
-
-This message tells the whole story:
-
-Nothing specified, nothing added.
-hint: Maybe you wanted to say 'git add .'?
-
-csharp
-Copy code
-
-### Do this:
-```bash
-git add .
-Verify:
-
-bash
-Copy code
-git status
-You should see files staged for commit.
-
-4️⃣ Commit Properly
-bash
-Copy code
-git commit -m "Initial IMDb AI agent with trained model and inference"
-5️⃣ Push to GitHub
-If you haven’t created the GitHub repo yet:
-
-Go to GitHub
-
-Create empty repo named imdb-ai-agent
-
-Do not add README or .gitignore there
-
-Then:
-
-bash
-Copy code
-git branch -M main
-git # IMDb AI Agent
-
-A trained sentiment-based AI agent built on the IMDb reviews dataset.
 
 ## What this is
 - Fine-tuned DistilBERT model on IMDb
@@ -78,10 +26,10 @@ imdb-ai-agent/
 ├── requirements.txt
 └── README.md
 
-bash
-Copy code
 
-## Setup (Local)
+
+
+## Setup (Local) - bash(Linux/MacOS)/powershell (Windows)
 
 ```bash
 git clone <repo-url>
@@ -98,9 +46,10 @@ Copy code
 from imdb_agent.agent import MovieAgent
 
 agent = MovieAgent()
-agent.decide("An absolute masterpieceremote add origin https://github.com/<your-username-or-org>/imdb-ai-agent.git
-git push -u origin main
-6️⃣ What Your Team Will Do (Copy This to Them)
+agent.decide("An absolute masterpiece")
+----------------------------------------------------------------------------
+
+ What Your Team Will Do (Copy This to Them)
 bash
 Copy code
 git clone https://github.com/<org>/imdb-ai-agent.git
